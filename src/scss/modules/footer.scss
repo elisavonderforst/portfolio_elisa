@@ -1,0 +1,28 @@
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: var(--Color-white, #fff);
+  font-family: "Lazare Grotesk Trial";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 23px;
+}
+
+.footer {
+  background: #3f0f03;
+}
+
+.footer-orange {
+  width: 480px;
+  height: 511px;
+  flex-shrink: 0;
+  background: var(--Color-2, #e76013);
+  padding-right: 700px;
+}

@@ -41,23 +41,63 @@
       <section class="projets">
         <div class="container">
           <div class="row">
-            <div class="col-6">
+            <div class="col-7">
               <h2 class="projet-title">Mes projets</h2>
             </div>
-            <div class="col-8">licorne</div>
-            <div class="col-4">apparence</div>
-            <div class="col-4">io</div>
-            <div class="col-4">tatitotu</div>
-            <div class="col-4">girl in red</div>
+            <div class="col-8">
+              <include src="include/card.html">
+                { "cardclass": "card-licorn", "cardinfo": "Fronted Dev",
+                "cardinfo": "Motion", "cardbtn": "#" }
+              </include>
+            </div>
+            <div class="col-4">
+              <include src="include/card.html">
+                { "cardclass": "card-licorn", "cardinfo": "Fronted Dev",
+                "cardinfo": "Motion", "cardbtn": "#" }
+              </include>
+            </div>
+            <div class="col-4">
+              <include src="include/card.html">
+                { "cardclass": "card-licorn", "cardinfo": "Fronted Dev",
+                "cardinfo": "Motion", "cardbtn": "#" }
+              </include>
+            </div>
+            <div class="col-4">
+              <include src="include/card.html">
+                { "cardclass": "card-licorn", "cardinfo": "Fronted Dev",
+                "cardinfo": "Motion", "cardbtn": "#" }
+              </include>
+            </div>
+            <div class="col-4">
+              <include src="include/card.html">
+                { "cardclass": "card-licorn", "cardinfo": "Fronted Dev",
+                "cardinfo": "Motion", "cardbtn": "#" }
+              </include>
+            </div>
             <div class="col-12">
               <div class="row">
                 <div class="col-4">
                   <div class="row">
-                    <div class="col-12"></div>
-                    <div class="col-12"></div>
+                    <div class="col-12">
+                      <include src="include/card.html">
+                        { "cardclass": "card-licorn", "cardinfo": "Fronted Dev",
+                        "cardinfo": "Motion", "cardbtn": "#" }
+                      </include>
+                    </div>
+                    <div class="col-12">
+                      <include src="include/card.html">
+                        { "cardclass": "card-licorn", "cardinfo": "Fronted Dev",
+                        "cardinfo": "Motion", "cardbtn": "#" }
+                      </include>
+                    </div>
                   </div>
                 </div>
-                <div class="col-8"></div>
+                <div class="col-8">
+                  <include src="include/card.html">
+                    { "cardclass": "card-licorn", "cardinfo": "Fronted Dev",
+                    "cardinfo": "Motion", "cardbtn": "#" }
+                  </include>
+                </div>
               </div>
             </div>
           </div>
@@ -67,21 +107,19 @@
         <div class="container">
           <div class="row">
             <div class="col-5">
-              <img src="#" alt="Dessin de elisa hihihihihi" />
+              <img src="img/dessin-moi.png" alt="Dessin de elisa hihihihihi" />
             </div>
             <div class="col-7">
               <div class="container">
                 <div class="row">
                   <div class="col-12">
-                    <h2>Qui suis-je</h2>
+                    <h2>Qui suis-je ?</h2>
                   </div>
                   <div class="col-10 offset-2">
                     <p class="about-text">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Similique aliquam est reprehenderit, aperiam libero
-                      expedita, nisi ipsam sunt deserunt esse obcaecati
-                      blanditiis perferendis possimus laudantium veritatis
-                      sapiente atque, doloremque facere.
+                      Bonjour, je m'appelle Elisa et je suis en apprentissage à
+                      Eikon. Je suis vraiment impatiente d'apprendre davantage
+                      en interactive Media Design, ...
                     </p>
                   </div>
                   <div class="col-10 offset-2">
@@ -95,11 +133,7 @@
       </section>
     </main>
     <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-12"></div>
-        </div>
-      </div>
+      <include src="include/footer.html"> </include>
     </footer>
     <script src="js/main.js" type="module"></script>
   </body>

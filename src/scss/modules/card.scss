@@ -1,0 +1,32 @@
+.card {
+  border-radius: 10px;
+  background: #fff;
+  margin: 23px 13px;
+}
+
+.card-information {
+  color: var(--Color-white, #fff);
+  font-family: "Lazare Grotesk Trial";
+  font-size: 20px;
+  display: flex;
+  width: 153px;
+  height: 31px;
+  padding: 7px 18px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: var(--orange-vif-fonce, #da4316);
+  margin-left: 27px;
+}
+
+.card-btn {
+  border-radius: 10px;
+  background: #3f0f03;
+  color: var(--Color-2, #e76013);
+  font-family: "Lazare Grotesk Trial";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
