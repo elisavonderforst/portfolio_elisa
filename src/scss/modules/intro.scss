@@ -1,3 +1,7 @@
+.intro-title {
+  padding-top: 180px;
+}
+
 .intro-text {
   color: var(--Color-black, #000);
   font-family: "Lazare Grotesk Trial";
@@ -5,7 +9,9 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-top: 20px;
   margin-right: 26px;
+  margin-bottom: 180px;
 }
 
 .intro-text-all {
