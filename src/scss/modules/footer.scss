@@ -21,7 +21,16 @@
 
 .footer-orange {
   height: 511px;
+  overflow-y: hidden;
   flex-shrink: 0;
   background: var(--Color-2, #e76013);
-  padding-right: 700px;
+  position: relative;
+}
+
+.footer-icon {
+  width: 134.92px;
+  height: 134.92px;
+  position: absolute;
+  right: 45px;
+  bottom: 25px;
 }

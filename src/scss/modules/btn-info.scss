@@ -1,0 +1,29 @@
+.btn {
+  border-radius: 10px;
+  background: #3f0f03;
+  margin-top: 200px;
+}
+
+.btn-information {
+  display: flex;
+}
+
+.btn-information a {
+  text-decoration: none;
+  color: var(--Color-2, #e76013);
+  font-family: "Lazare Grotesk Trial";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 23px;
+  padding-left: 36px;
+}
+
+.btn-icon {
+  padding-top: 15px;
+  padding-left: 35px;
+  fill: var(--Color-2, #e76013);
+  stroke: var(--Color-2, #e76013);
+}
