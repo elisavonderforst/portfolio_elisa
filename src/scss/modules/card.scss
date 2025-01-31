@@ -1,7 +1,8 @@
 .card {
   border-radius: 10px;
-  background: #fff;
   margin: 20px 13px;
+  position: relative;
+  overflow: hidden;
 }
 
 .card-information {
@@ -17,6 +18,8 @@
   border-radius: 10px;
   background: var(--orange-vif-fonce, #da4316);
   margin-left: 27px;
+  position: absolute;
+  top: 20px;
 }
 
 .card-btn {
@@ -33,6 +36,8 @@
   display: flex;
   justify-content: center;
   margin: 20px;
+  position: absolute;
+  bottom: 20px;
 }
 
 .card-btn a {
