@@ -1,0 +1,28 @@
+.header-name {
+  color: #3f0f03;
+  font-family: "Lazare Grotesk Trial";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 20px 0 20px;
+  line-height: 102.542%;
+  text-decoration: none;
+  position: relative;
+}
+
+.header-hover-name {
+  position: absolute;
+  width: 5%;
+  top: 0%;
+  left: 23%;
+  opacity: 0;
+}
+
+.header-name:hover .header-hover-name {
+  opacity: 100%;
+}
+
+.header-name-a {
+  margin: 20px 0;
+}

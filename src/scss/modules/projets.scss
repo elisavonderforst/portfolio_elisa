@@ -8,3 +8,59 @@
   padding-top: 100px;
   padding-bottom: 20px;
 }
+
+.projet-redirection {
+  background: var(--orange-vif-fonce, #da4316);
+  padding-bottom: 80px;
+}
+
+.projet-title-page {
+  color: var(--orange-vif-fonce, #da4316);
+  font-family: "Lazare Grotesk Trial";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.projet-text {
+  color: #000;
+  font-family: "Lazare Grotesk Trial";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 190px;
+}
+
+.projet-info,
+.projet-focus {
+  padding-bottom: 167px;
+}
+
+.projet-video-img {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.projet-video {
+  margin: 20px 0 0;
+}
+
+.projet-liens {
+  color: var(--orange-vif-fonce, #da4316);
+  font-family: Futura;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+  text-transform: uppercase;
+}
