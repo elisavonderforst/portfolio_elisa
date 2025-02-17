@@ -26,3 +26,11 @@
 .header-name-a {
   margin: 20px 0;
 }
+
+.header-hidden {
+  transition: transform 0.3s;
+}
+
+.header-hidden.hidden-scroll {
+  transform: translatey(-200px);
+}
