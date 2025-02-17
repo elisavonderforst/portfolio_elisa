@@ -1,3 +1,80 @@
-.burger-menu {
-  margin: 30px 0;
+.burger {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 3; /* permet de faire passer le lien devant le menu */
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 50px;
+  background: var(--Color-2, #e76013);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+  transform: translateX(100%);
+  transition: transform 0.3s;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  justify-content: center;
+}
+
+.menu.is-active {
+  opacity: 1; /* avec la classe is-active, le menu a une opacité de 1 */
+  pointer-events: auto; /* avec la classe is-active, le menu peut être cliqué */
+  transform: translateX(0);
+  overflow: hidden;
+}
+
+.menu.is-close {
+  opacity: 0; /* avec la classe is-active, le menu a une opacité de 1 */
+  pointer-events: auto; /* avec la classe is-active, le menu peut être cliqué */
+  transform: translateX(100%);
+  overflow: hidden;
+}
+
+li {
+  color: var(--Color-white, #fff);
+  list-style-type: none;
+  font-family: "Lazare Grotesk Trial";
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-bottom: 50px;
+}
+
+li > a {
+  text-decoration: none;
+}
+
+.menu-social {
+  position: absolute;
+}
+
+.menu-ancre-border {
+  position: relative;
+}
+
+.menu-border-hover {
+  position: absolute;
+  right: 0;
+  width: 40%;
+  height: 5px;
+  background: var(--bar-color, rgb(255, 255, 255));
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease-in-out;
+}
+
+.menu-ancre-border:hover .menu-border-hover {
+  transform: scaleX(1.2);
+  transform-origin: right;
 }

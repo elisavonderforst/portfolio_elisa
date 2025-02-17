@@ -3,7 +3,7 @@
   color: var(--Color-black, #000);
   text-overflow: ellipsis;
   font-family: "Lazare Grotesk Trial";
-  font-size: 32px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -29,9 +29,20 @@
 }
 
 .about-projet-perso {
-  padding: 0 20px 20px 0;
+  width: 95%;
+  margin-bottom: 40px;
 }
 
 .about-projet-title {
   padding-bottom: 20px;
 }
+
+// .aboutimg {
+//   width: 200px; /* Taille initiale de l'image */
+//   transition: transform 0.3s ease; /* Transition douce */
+//   cursor: pointer; /* Changer le curseur au survol */
+// }
+
+// .aboutimg.agrandie {
+//   transform: scale(2); /* Agrandir l'image */
+// }
