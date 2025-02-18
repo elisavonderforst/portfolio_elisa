@@ -28,11 +28,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-// function agrandirImage() {
-//   const image = document.getElementById("img1");
-//   image.classList.toggle("agrandie"); // Ajoute ou retire la classe 'agrandie'
-// }
-
 document.addEventListener("DOMContentLoaded", function () {
   const burgerMenuButton = document.querySelector(".header-hidden");
   let lastScrollTop = 0;

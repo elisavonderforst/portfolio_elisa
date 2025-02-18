@@ -1,6 +1,6 @@
 .burger {
   position: fixed;
-  top: 20px;
+  top: 30px;
   right: 20px;
   z-index: 3;
 }
@@ -56,7 +56,6 @@ li {
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-  padding-bottom: 50px;
 }
 
 li > a {
@@ -69,6 +68,7 @@ li > a {
 
 .menu-ancre-border {
   position: relative;
+  margin-bottom: 20px;
 }
 
 .menu-border-hover {
