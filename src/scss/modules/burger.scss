@@ -2,7 +2,7 @@
   position: fixed;
   top: 20px;
   right: 20px;
-  z-index: 3; /* permet de faire passer le lien devant le menu */
+  z-index: 3;
 }
 
 .menu {
@@ -30,6 +30,10 @@
   pointer-events: auto; /* avec la classe is-active, le menu peut être cliqué */
   transform: translateX(0);
   overflow: hidden;
+}
+
+.menu.menu.is-active .middle-burger-svg {
+  transform: translateX(-100px);
 }
 
 .menu.is-close {

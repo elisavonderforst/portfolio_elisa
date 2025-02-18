@@ -17,14 +17,18 @@
 
 .footer {
   background: #3f0f03;
+  position: relative;
+  padding-bottom: 25px;
 }
 
 .footer-orange {
-  height: 511px;
-  overflow-y: hidden;
-  flex-shrink: 0;
+  width: 30%;
+  height: 100%;
   background: var(--Color-2, #e76013);
-  position: relative;
+  position: absolute;
+  top: 0;
+  right: 0;
+  // transition-property: all 4s ease-out;
 }
 
 .footer-icon {
@@ -34,3 +38,52 @@
   right: 45px;
   bottom: 25px;
 }
+
+.footer-comeback-img {
+  width: 70%;
+  position: absolute;
+  bottom: 70px;
+  left: 60px;
+  opacity: 0;
+  transition: all 0.2s ease-out;
+}
+
+.footer-orange:hover .footer-comeback-img {
+  opacity: 1;
+}
+
+.footer-credit {
+  color: var(--Color-white, #fff);
+  font-family: "Lazare Grotesk Trial";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+// .footer-orange {
+//   width: 30%;
+//   height: 100%;
+//   background: var(--Color-2, #e76013);
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   transition-property: all 4s ease-out;
+// }
+
+// .footer-comeback-img {
+//   width: 70%;
+//   position: absolute;
+//   bottom: 70px;
+//   left: 60px;
+//   opacity: 0;
+//   transition: opacity 4s ease-out; /* Ajout de la transition ici */
+// }
+
+// .footer-orange:hover .footer-comeback-img {
+//   opacity: 1; /* Changement à 1 au lieu de 100% */
+// }

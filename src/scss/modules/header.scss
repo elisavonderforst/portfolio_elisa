@@ -8,19 +8,23 @@
   padding: 20px 0 20px;
   line-height: 102.542%;
   text-decoration: none;
+}
+
+.header-name-a {
   position: relative;
 }
 
 .header-hover-name {
   position: absolute;
-  width: 5%;
-  top: 0%;
-  left: 23%;
+  width: 30%;
+  top: -40;
+  right: 0;
   opacity: 0;
+  transition: all 0.2s ease-out;
 }
 
-.header-name:hover .header-hover-name {
-  opacity: 100%;
+.header-name-a:hover .header-hover-name {
+  opacity: 1;
 }
 
 .header-name-a {

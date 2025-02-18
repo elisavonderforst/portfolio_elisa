@@ -38,8 +38,9 @@
   bottom: 20px;
   display: flex;
   justify-content: center;
-  align-items: center; /* Utilisez center pour aligner le texte correctement */
-  margin: 5%; /* Ajustez la marge pour le haut et le bas */
+  align-items: center;
+  margin: 5%;
+  margin-bottom: 20px;
   flex: 1;
   width: 90%;
 }

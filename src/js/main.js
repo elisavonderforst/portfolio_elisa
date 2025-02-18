@@ -1,13 +1,22 @@
-var burger = document.querySelector(".burger");
-var menu = document.querySelector(".menu");
-var aProjets = document.querySelector(".a-projets");
-var aAbout = document.querySelector("a-about");
+document.addEventListener("DOMContentLoaded", function () {
+  var burger = document.querySelector(".burger");
+  var menu = document.querySelector(".menu");
+  const aMenu = document.querySelectorAll(".menu-ancre-border a");
 
-var toggleMenu = function toggleMenu() {
-  menu.classList.toggle("is-active");
-};
+  var toggleMenu = function toggleMenu() {
+    menu.classList.toggle("is-active");
+  };
 
-burger.addEventListener("click", toggleMenu);
+  burger.addEventListener("click", toggleMenu);
+
+  function closeMenu() {
+    menu.classList.remove("is-active");
+  }
+
+  aMenu.forEach((item) => {
+    item.addEventListener("click", closeMenu);
+  });
+});
 
 // function agrandirImage() {
 //   const image = document.getElementById("img1");
@@ -22,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const currentScrollTop =
       window.pageYOffset || document.documentElement.scrollTop;
 
-    console.log(currentScrollTop); // Check if scroll position is detected
+    console.log(currentScrollTop);
 
     if (currentScrollTop > lastScrollTop) {
       burgerMenuButton.classList.add("hidden-scroll");
