@@ -64,6 +64,10 @@ li > a {
 
 .menu-social {
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  bottom: 50px;
 }
 
 .menu-ancre-border {
@@ -86,4 +90,9 @@ li > a {
 .menu-ancre-border:hover .menu-border-hover {
   transform: scaleX(1.2);
   transform-origin: right;
+}
+
+.menu-icon-social {
+  width: 120%;
+  padding-bottom: 30px;
 }

@@ -4,6 +4,7 @@
 }
 
 .footer-nav a {
+  display: flex;
   text-decoration: none;
   color: var(--Color-white, #fff);
   font-family: "Lazare Grotesk Trial";
@@ -13,6 +14,10 @@
   line-height: normal;
   text-transform: uppercase;
   margin-bottom: 23px;
+}
+
+.footer-nav a img {
+  padding-right: 20px;
 }
 
 .footer {
@@ -64,25 +69,6 @@
   padding-top: 60px;
 }
 
-// .footer-orange {
-//   width: 30%;
-//   height: 100%;
-//   background: var(--Color-2, #e76013);
-//   position: absolute;
-//   top: 0;
-//   right: 0;
-//   transition-property: all 4s ease-out;
-// }
-
-// .footer-comeback-img {
-//   width: 70%;
-//   position: absolute;
-//   bottom: 70px;
-//   left: 60px;
-//   opacity: 0;
-//   transition: opacity 4s ease-out; /* Ajout de la transition ici */
-// }
-
-// .footer-orange:hover .footer-comeback-img {
-//   opacity: 1; /* Changement à 1 au lieu de 100% */
-// }
+.footer-mail {
+  width: 5%;
+}

@@ -3,6 +3,7 @@
   margin: 20px 13px;
   position: relative;
   overflow: hidden;
+  width: 100%;
 }
 
 .card-information {
@@ -19,7 +20,7 @@
   background: var(--orange-vif-fonce, #da4316);
   margin-left: 5%;
   position: absolute;
-  top: 20px;
+  bottom: 120px;
 }
 
 .card-btn a {
@@ -28,7 +29,6 @@
   color: var(--Color-2, #e76013);
   font-family: "Lazare Grotesk Trial";
   font-size: 32px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
