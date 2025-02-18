@@ -31,7 +31,11 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-bottom: 190px;
+}
+
+.projet-liens {
+  display: flex;
+  margin-top: 190px;
 }
 
 .projet-info,
@@ -43,10 +47,6 @@
   margin-bottom: 20px;
   margin-top: 20px;
   margin-left: 40px;
-}
-
-.projet-video {
-  margin: 20px 0 0;
 }
 
 .projet-liens {
@@ -69,5 +69,6 @@
 }
 
 .projet-video {
+  margin: 20px 0 0;
   width: 100%;
 }
