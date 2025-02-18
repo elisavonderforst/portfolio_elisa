@@ -26,8 +26,8 @@
 }
 
 .menu.is-active {
-  opacity: 1; /* avec la classe is-active, le menu a une opacité de 1 */
-  pointer-events: auto; /* avec la classe is-active, le menu peut être cliqué */
+  opacity: 1;
+  pointer-events: auto;
   transform: translateX(0);
   overflow: hidden;
 }
@@ -37,15 +37,19 @@
 }
 
 .menu.is-close {
-  opacity: 0; /* avec la classe is-active, le menu a une opacité de 1 */
-  pointer-events: auto; /* avec la classe is-active, le menu peut être cliqué */
+  opacity: 0;
+  pointer-events: auto;
   transform: translateX(100%);
-  overflow: hidden;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 li {
   color: var(--Color-white, #fff);
-  list-style-type: none;
   font-family: "Lazare Grotesk Trial";
   font-size: 96px;
   font-style: normal;
@@ -70,6 +74,7 @@ li > a {
 .menu-border-hover {
   position: absolute;
   right: 0;
+  bottom: 0;
   width: 40%;
   height: 5px;
   background: var(--bar-color, rgb(255, 255, 255));

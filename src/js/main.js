@@ -5,13 +5,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
   var toggleMenu = function toggleMenu() {
     menu.classList.toggle("is-active");
-  };
 
-  burger.addEventListener("click", toggleMenu);
+    if (menu.classList.contains("is-active")) {
+      // Désactiver le défilement
+      document.body.style.overflow = "hidden";
+    } else {
+      // Réactiver le défilement
+      document.body.style.overflow = "auto";
+    }
+  };
 
   function closeMenu() {
     menu.classList.remove("is-active");
+    // Réactiver le défilement
+    document.body.style.overflow = "auto";
   }
+
+  burger.addEventListener("click", toggleMenu);
 
   aMenu.forEach((item) => {
     item.addEventListener("click", closeMenu);
