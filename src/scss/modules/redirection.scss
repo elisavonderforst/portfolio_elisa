@@ -1,6 +1,7 @@
 .redirection-title {
   color: var(--Color-white, #fff);
   padding-top: 70px;
+  margin-bottom: 0;
 }
 
 .redirection-img {
@@ -15,4 +16,34 @@
   font-weight: 400;
   line-height: normal;
   padding-top: 37px;
+  padding-bottom: 20%;
+}
+
+.redirection-btn {
+  margin-top: 0;
+}
+
+.redirection-btn {
+  border-radius: 10px;
+  background: #3f0f03;
+  padding: 23px;
+}
+
+.redirection-btn a {
+  text-decoration: none;
+  color: var(--Color-2, #e76013);
+  font-family: "Lazare Grotesk Trial";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 40%;
+}
+
+.redirection-info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
