@@ -7,24 +7,16 @@ document.addEventListener("DOMContentLoaded", function () {
     menu.classList.toggle("is-active");
 
     if (menu.classList.contains("is-active")) {
-      // Désactiver le défilement
       document.body.style.overflow = "hidden";
     } else {
-      // Réactiver le défilement
       document.body.style.overflow = "auto";
     }
   };
 
-  function closeMenu() {
-    menu.classList.remove("is-active");
-    // Réactiver le défilement
-    document.body.style.overflow = "auto";
-  }
-
   burger.addEventListener("click", toggleMenu);
 
   aMenu.forEach((item) => {
-    item.addEventListener("click", closeMenu);
+    item.addEventListener("click", toggleMenu);
   });
 });
 

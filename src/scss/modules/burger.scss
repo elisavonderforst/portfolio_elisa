@@ -13,11 +13,9 @@
   left: 0;
   padding: 50px;
   background: var(--Color-2, #e76013);
-  opacity: 0;
   pointer-events: none;
-  transition: opacity 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
   transform: translateX(100%);
-  transition: transform 0.3s;
   z-index: 2;
   display: flex;
   flex-direction: column;
@@ -30,16 +28,6 @@
   pointer-events: auto;
   transform: translateX(0);
   overflow: hidden;
-}
-
-.menu.menu.is-active .middle-burger-svg {
-  transform: translateX(-100px);
-}
-
-.menu.is-close {
-  opacity: 0;
-  pointer-events: auto;
-  transform: translateX(100%);
 }
 
 ul {
