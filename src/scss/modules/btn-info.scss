@@ -27,3 +27,14 @@
   fill: var(--Color-2, #e76013);
   stroke: var(--Color-2, #e76013);
 }
+
+.btn-parent-frisson {
+  position: relative;
+}
+
+.btn-frisson {
+  position: absolute;
+  width: 110%;
+  right: 0px;
+  top: -40px;
+}
