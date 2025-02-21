@@ -38,3 +38,26 @@
 .header-hidden.hidden-scroll {
   transform: translatey(-200px);
 }
+
+@media screen and (max-width: 500px) {
+  .header-name {
+    font-size: 15px;
+  }
+
+  .header-hover-name {
+    position: absolute;
+    width: 50%;
+    top: -20;
+    right: 0;
+    opacity: 0;
+    transition: all 0.2s ease-out;
+  }
+
+  .header-name-a:hover .header-hover-name {
+    opacity: 1;
+  }
+
+  .header-name-a {
+    margin: 20px 0;
+  }
+}

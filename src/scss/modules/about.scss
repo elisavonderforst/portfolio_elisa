@@ -38,12 +38,43 @@
   padding-bottom: 20px;
 }
 
-// .aboutimg {
-//   width: 200px; /* Taille initiale de l'image */
-//   transition: transform 0.3s ease; /* Transition douce */
-//   cursor: pointer; /* Changer le curseur au survol */
-// }
+@media screen and (max-width: 500px) {
+  .about-img-me-index {
+    display: none;
+  }
+  .about-text {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 45px;
+  }
 
-// .aboutimg.agrandie {
-//   transform: scale(2); /* Agrandir l'image */
-// }
+  .about {
+    padding-top: 130px;
+  }
+
+  .about-title-page {
+    color: var(--orange-vif-fonce, #da4316);
+    font-family: "Lazare Grotesk Trial";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-top: 170px;
+  }
+
+  .about-img-me {
+    margin-top: 70px;
+  }
+
+  .about-projet-perso {
+    width: 95%;
+    margin-bottom: 40px;
+  }
+
+  .about-projet-title {
+    padding-bottom: 20px;
+  }
+}

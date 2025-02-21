@@ -20,22 +20,22 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-  const burgerMenuButton = document.querySelector(".header-hidden");
-  let lastScrollTop = 0;
+// document.addEventListener("DOMContentLoaded", function () {
+//   const burgerMenuButton = document.querySelector(".header-hidden");
+//   let lastScrollTop = 0;
 
-  window.addEventListener("scroll", function () {
-    const currentScrollTop =
-      window.pageYOffset || document.documentElement.scrollTop;
+//   window.addEventListener("scroll", function () {
+//     const currentScrollTop =
+//       window.pageYOffset || document.documentElement.scrollTop;
 
-    console.log(currentScrollTop);
+//     console.log(currentScrollTop);
 
-    if (currentScrollTop > lastScrollTop) {
-      burgerMenuButton.classList.add("hidden-scroll");
-    } else {
-      burgerMenuButton.classList.remove("hidden-scroll");
-    }
+//     if (currentScrollTop > lastScrollTop) {
+//       burgerMenuButton.classList.add("hidden-scroll");
+//     } else {
+//       burgerMenuButton.classList.remove("hidden-scroll");
+//     }
 
-    lastScrollTop = currentScrollTop;
-  });
-});
+//     lastScrollTop = currentScrollTop;
+//   });
+// });

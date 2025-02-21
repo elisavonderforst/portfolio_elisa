@@ -1,3 +1,12 @@
+html {
+  overflow-x: hidden;
+  background: #fff;
+}
+
+.inner::-webkit-scrollbar {
+  display: none;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -61,4 +70,42 @@ h6 {
   font-style: normal;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 500px) {
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    color: var(--Color-white, #fff);
+    font-family: "Lazare Grotesk Trial";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-top: 70px;
+    padding-bottom: 58px;
+  }
+
+  h5 {
+    color: var(--orange-vif-fonce, #da4316);
+    font-family: "Lazare Grotesk Trial";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+  }
+
+  h6 {
+    color: var(--Color-white, #fff);
+    font-family: "Lazare Grotesk Trial";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
 }

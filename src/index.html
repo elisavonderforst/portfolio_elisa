@@ -15,14 +15,14 @@
       <section class="intro">
         <div class="container">
           <div class="row">
-            <div class="col-7">
+            <div class="col-8 col-md-7">
               <h3 class="intro-title">
                 Interactive
                 <br />
                 Media Design
               </h3>
             </div>
-            <div class="col-8">
+            <div class="col-7 col-md-8">
               <div class="intro-text-all">
                 <p class="intro-text">Fronted Dev</p>
                 <p class="intro-text">UI/ UX</p>
@@ -37,49 +37,49 @@
       <section class="projets" id="projets">
         <div class="container">
           <div class="row">
-            <div class="col-7">
+            <div class="col-9 col-md-7">
               <h3 class="projet-title">Mes projets</h3>
             </div>
-            <div class="col-8">
+            <div class="col-12 col-md-8">
               <include src="include/card.html">
                 { "cardclass": "card-licorne", "cardclassimg":
                 "card-licorne-img", "cardclassimgsrc": "img/licorne.png",
                 "cardinfo": "Fronted Dev", "cardsrc": "licorne.html" }
               </include>
             </div>
-            <div class="col-4">
+            <div class="col-6 col-md-4">
               <include src="include/card.html">
                 { "cardclass": "card-apparence", "cardclassimg":
                 "card-apparence-img", "cardclassimgsrc": "img/apparence.png",
                 "cardinfo": "Vidéo", "cardsrc": "apparence.html" }
               </include>
             </div>
-            <div class="col-4">
+            <div class="col-6 col-md-4">
               <include src="include/card.html">
                 { "cardclass": "card-io", "cardclassimg": "card-io-img",
                 "cardclassimgsrc": "img/io.png", "cardinfo": "Illustration",
                 "cardsrc": "io.html" }
               </include>
             </div>
-            <div class="col-4">
+            <div class="col-6 col-md-4">
               <include src="include/card.html">
                 { "cardclass": "card-ql", "cardclassimg": "card-cl-img",
                 "cardclassimgsrc": "img/ql-logo.png", "cardinfo": "Fronted Dev",
                 "cardsrc": "quartierlointain.html" }
               </include>
             </div>
-            <div class="col-4">
+            <div class="col-6 col-md-4">
               <include src="include/card.html">
                 { "cardclass": "card-girlinred", "cardclassimg":
                 "card-girlinred-img", "cardclassimgsrc": "img/girlinred.png",
                 "cardinfo": "Vidéo", "cardsrc": "girlinred.html" }
               </include>
             </div>
-            <div class="col-12">
+            <div class="col-12 col-md-12">
               <div class="row">
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                   <div class="row">
-                    <div class="col-12">
+                    <div class="col-6 col-md-12">
                       <include src="include/card.html">
                         { "cardclass": "card-happybirthday", "cardinfo":
                         "Motion", "cardclassimg": "card-happybirthday-img",
@@ -87,7 +87,7 @@
                         "happybirthday.html" }
                       </include>
                     </div>
-                    <div class="col-12">
+                    <div class="col-6 col-md-12">
                       <include src="include/card.html">
                         { "cardclass": "card-glitch", "cardclassimg":
                         "card-glitch-img", "cardclassimgsrc": "img/glitch.png",
@@ -97,7 +97,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-8">
+                <div class="col-12 col-md-8">
                   <include src="include/card.html">
                     { "cardclass": "card-inconnu", "cardclassimg":
                     "card-inconnu-img", "cardclassimgsrc": "img/wk.png",
@@ -113,29 +113,28 @@
       <section class="about" id="about">
         <div class="container">
           <div class="row">
-            <div class="col-5">
-              <img src="img/dessin-moi.png" alt="Dessin de elisa hihihihihi" />
+            <div class="col-2 col-md-5">
+              <img
+                class="about-img-me-index"
+                src="img/dessin-moi.png"
+                alt="Dessin de elisa hihihihihi"
+              />
             </div>
-            <div class="col-7">
+            <div class="col-12 col-md-7">
               <div class="container">
                 <div class="row">
-                  <div class="col-12">
+                  <div class="col-12 col-md-12">
                     <h3>Qui suis-je ?</h3>
                   </div>
-                  <div class="col-9 offset-3">
+                  <div class="col-12 col-md-9 offset-md-3">
                     <p class="about-text">
                       Bonjour, je m'appelle Elisa et je suis en apprentissage à
                       eikon. Je suis vraiment impatiente d'apprendre davantage
                       en interactive Media Design.
                     </p>
                   </div>
-                  <div class="col-10 offset-3">
+                  <div class="col-10 col-md-10 offset-md-3">
                     <div class="btn-parent-frisson">
-                      <!-- <img
-                        src="img/btn-frisson.png"
-                        alt=""
-                        class="btn-frisson"
-                      /> -->
                       <include src="include/btn-info.html">
                         { "btnclass": "btn-about", "btnpage": "about.html",
                         "btninfo": "Plus d'informations"}

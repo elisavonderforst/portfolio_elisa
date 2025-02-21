@@ -28,13 +28,24 @@
   stroke: var(--Color-2, #e76013);
 }
 
-.btn-parent-frisson {
-  position: relative;
-}
+@media screen and (max-width: 500px) {
+  .btn {
+    border-radius: 10px;
+    background: #3f0f03;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
 
-.btn-frisson {
-  position: absolute;
-  width: 110%;
-  right: 0px;
-  top: -40px;
+  .btn-information {
+    display: flex;
+  }
+
+  .btn-information a {
+    font-size: 18px;
+    padding: 20px;
+  }
+
+  .btn-icon {
+    display: none;
+  }
 }

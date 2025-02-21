@@ -85,3 +85,52 @@ li > a {
   width: 120%;
   padding-bottom: 30px;
 }
+
+@media screen and (max-width: 500px) {
+  .burger {
+    position: fixed;
+    top: 0px;
+    right: -20px;
+  }
+
+  .burger svg {
+    width: 60%;
+  }
+
+  .menu {
+    padding: 10px;
+  }
+
+  li {
+    font-size: 30px;
+  }
+
+  .menu-social {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0px;
+  }
+
+  .menu-social li a {
+    width: 100%;
+    padding: 40px;
+  }
+
+  .menu-ancre-border {
+    position: relative;
+    margin-bottom: 30px;
+  }
+
+  .menu-border-hover {
+    width: 60%;
+  }
+
+  .menu-icon-social {
+    width: 60%;
+    padding-bottom: 0;
+    margin: 10px;
+  }
+}
