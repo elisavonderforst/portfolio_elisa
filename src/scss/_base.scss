@@ -78,34 +78,17 @@ h6 {
   }
 
   h4 {
-    color: var(--Color-white, #fff);
-    font-family: "Lazare Grotesk Trial";
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
+    font-size: 50px;
     padding-top: 70px;
     padding-bottom: 58px;
   }
 
   h5 {
-    color: var(--orange-vif-fonce, #da4316);
-    font-family: "Lazare Grotesk Trial";
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
-    margin-bottom: 80px;
+    font-size: 44px;
+    margin-bottom: 20px;
   }
 
   h6 {
-    color: var(--Color-white, #fff);
-    font-family: "Lazare Grotesk Trial";
     font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    text-transform: uppercase;
   }
 }

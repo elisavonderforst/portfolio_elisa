@@ -88,5 +88,87 @@
   margin-top: 20px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
+  .projets {
+    background: var(--orange-vif-fonce, #da4316);
+    padding-bottom: 100px;
+  }
+
+  .projet-title {
+    color: var(--Color-white, #fff);
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+
+  .projet-redirection {
+    background: var(--orange-vif-fonce, #da4316);
+    padding-bottom: 80px;
+  }
+
+  .projet-title-page {
+    color: var(--orange-vif-fonce, #da4316);
+    font-family: "Lazare Grotesk Trial";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-top: 170px;
+  }
+
+  .projet-info,
+  .projet-focus {
+    padding-bottom: 167px;
+  }
+
+  .projet-video-img {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+
+  .projet-img-2 {
+    margin-top: 0;
+  }
+
+  .projet-info-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .projet-text {
+    color: #000;
+    font-family: "Lazare Grotesk Trial";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .projet-liens {
+    font-size: 20px;
+  }
+
+  .projet-info-img {
+    width: 100%;
+  }
+
+  .projet-video {
+    margin: 20px 0 0;
+    width: 100%;
+  }
+
+  .projet-img-1 {
+    margin: 20px 0 0;
+    width: 100%;
+  }
+
+  .projet-img-wk-bg {
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+  }
 }
