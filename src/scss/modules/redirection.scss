@@ -6,6 +6,7 @@
 
 .redirection-img {
   margin-top: 80px;
+  width: 100%;
 }
 
 .redirection-text {
@@ -46,4 +47,53 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 1200px) {
+  .redirection-title {
+    padding-top: 70px;
+    margin-bottom: 0;
+  }
+
+  .redirection-img {
+    margin-top: 60px;
+  }
+
+  .redirection-text {
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .redirection-btn {
+    padding: 10px;
+  }
+
+  .redirection-btn a {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .redirection-text {
+    font-size: 20px;
+  }
+
+  .redirection-btn {
+    margin-top: 0;
+  }
+
+  .redirection-btn {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .redirection-btn {
+    padding: 15px;
+  }
+
+  .redirection-btn a {
+    font-size: 22px;
+  }
 }

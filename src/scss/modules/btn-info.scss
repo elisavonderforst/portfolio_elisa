@@ -2,6 +2,11 @@
   border-radius: 10px;
   background: #3f0f03;
   margin-top: 200px;
+  transition: transform 0.4s ease-in;
+}
+
+.btn:hover {
+  transform: scale(1.04);
 }
 
 .btn-information {
@@ -28,7 +33,7 @@
   stroke: var(--Color-2, #e76013);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .btn {
     border-radius: 10px;
     background: #3f0f03;

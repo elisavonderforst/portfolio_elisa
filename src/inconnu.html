@@ -18,7 +18,7 @@
             <div class="col-12">
               <h4 class="projet-title-page">L'inconnu</h4>
             </div>
-            <div class="col-5">
+            <div class="col-12 col-lg-5">
               <p class="projet-text">
                 Réalisations d'une séquence avec After Effects pendant une
                 semaine. L'objectif étant de s'améliorer sur le logiciel en
@@ -29,12 +29,8 @@
                 découler.
               </p>
             </div>
-            <div class="col-6 offset-1">
-              <img
-                class="projet-bday-info projet-info-img"
-                src="img/inconnu-info.png"
-                alt=""
-              />
+            <div class="col-12 col-lg-6 offset-lg-1">
+              <img class="projet-info-img" src="img/inconnu-info.png" alt="" />
             </div>
           </div>
         </div>
@@ -73,7 +69,16 @@
           </div>
         </div>
       </section>
-      <section class="projet-redirection"></section>
+      <section class="projet-redirection">
+        <include src="include/redirection.html">
+          { "redirectionimg": "img/io.png", "redirectionalt": "Image de la
+          couverture du livre illustré", "redirectiontitle": "Méthamorphose
+          d'io", "redirectiontext": "Pour ce projet, nous avons choisi un mythe
+          parmi trois récits de Ovide et avons eu deux semaines pour en faire un
+          livre illustré.", "redirectionclasse": "redirectionio",
+          "redirectionbtn": "io.html" }
+        </include>
+      </section>
     </main>
     <footer>
       <include src="include/footer.html"></include>

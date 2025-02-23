@@ -18,7 +18,7 @@
             <div class="col-12">
               <h4 class="projet-title-page">Quartier lointain</h4>
             </div>
-            <div class="col-5">
+            <div class="col-12 col-lg-5">
               <div class="projet-info-text">
                 <p class="projet-text">
                   Pour ce projet, nous disposons de deux semaines pour concevoir
@@ -39,7 +39,7 @@
                 >
               </div>
             </div>
-            <div class="col-6 offset-1">
+            <div class="col-12 col-lg-6 offset-lg-1">
               <img
                 src="img/ql-logo.png"
                 alt=""
@@ -57,14 +57,14 @@
             </div>
             <div class="col-12">
               <div class="row">
-                <div class="col-6">
+                <div class="col-12 col-lg-6">
                   <img
                     class="projet-video-img projet-img-1"
                     src="img/mockup-ql.png"
                     alt=""
                   />
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-lg-6">
                   <div class="row">
                     <div class="col-12">
                       <video
@@ -87,7 +87,16 @@
           </div>
         </div>
       </section>
-      <section class="projet-redirection"></section>
+      <section class="projet-redirection">
+        <include src="include/redirection.html">
+          { "redirectionimg": "img/licorne.png", "redirectionalt": "Image d'une
+          des bières licorne", "redirectiontitle": "licorne", "redirectiontext":
+          "Pour ce projet, nous avons eu 2 semaines pour faire un site web
+          One-page et un vidéo promotionnel pour des bières sans alcool du nom
+          Lic%rne.", "redirectionclasse": "redirectionlicorne",
+          "redirectionbtn": "licorne.html" }
+        </include>
+      </section>
     </main>
     <footer>
       <include src="include/footer.html"></include>

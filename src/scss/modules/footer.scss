@@ -53,10 +53,11 @@
 .footer-comeback-img {
   width: 70%;
   position: absolute;
-  bottom: 70px;
-  left: 60px;
+  bottom: 120px;
+  left: 50px;
   opacity: 0;
   transition: all 0.2s ease-out;
+  z-index: 4;
 }
 
 .footer-orange:hover .footer-comeback-img {
@@ -77,14 +78,24 @@
 }
 
 .footer-mail {
-  width: 6%;
+  width: 8%;
 }
 
 .footer-title {
   padding-bottom: 30px;
 }
 
-@media screen and (max-width: 500px) {
+.footer-star-icon {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .footer-mail {
+    width: 10%;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .footer-nav {
     display: flex;
     margin-left: 15%;
@@ -126,6 +137,7 @@
   }
 
   .footer-star-icon {
+    display: block;
     position: absolute;
     width: 90px;
     right: 10px;
@@ -144,10 +156,6 @@
 
   .footer-credit {
     font-size: 9px;
-  }
-
-  .footer-mail {
-    width: 3%;
   }
 
   .footer-title {

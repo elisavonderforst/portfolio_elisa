@@ -16,9 +16,9 @@
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <h4 class="projet-title-page">Licorne</h4>
+              <h4 class="projet-title-page">BAD IDEA!</h4>
             </div>
-            <div class="col-5">
+            <div class="col-12 col-lg-5">
               <p class="projet-text">
                 Pour ce projet, nous avons dû faire un clip musical. Nous avions
                 la possibilité de choisir la musique et j'ai décidé de partir
@@ -31,7 +31,7 @@
                 que donne l'actrice principale.
               </p>
             </div>
-            <div class="col-6 offset-1">
+            <div class="col-12 col-lg-6 offset-lg-1">
               <img
                 src="img/girlinred-info.png"
                 alt=""
@@ -54,41 +54,19 @@
                 controls
               ></video>
             </div>
-            <!-- <div class="col-12">
-              <div class="row">
-                <div class="col-6">
-                  <video
-                    autoplay
-                    loop
-                    class="projet-video-img projet-video"
-                    object-fit="cover"
-                    src="img/licorne-mockup-squard.mp4"
-                  ></video>
-                </div>
-                <div class="col-6">
-                  <div class="row">
-                    <div class="col-12">
-                      <img
-                        class="projet-video-img"
-                        src="img/licorne-blond.png"
-                        alt="Section horizontal pour montrer les différentes bières sans alcool"
-                      />
-                    </div>
-                    <div class="col-6">
-                      <img
-                        class="projet-video-img"
-                        src="img/licorne-burger.png"
-                        alt="Burger menu"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> -->
           </div>
         </div>
       </section>
-      <section class="projet-redirection"></section>
+      <section class="projet-redirection">
+        <include src="include/redirection.html">
+          { "redirectionimg": "img/glitch.png", "redirectionalt": "Image de la
+          video Glitch", "redirectiontitle": "Glitch", "redirectiontext": " Pour
+          ce projet, nous avons dû réaliser un montage percutant dans After
+          Effects. Nous devions utiliser des effets de glitch, tout en
+          synchronisant la bande sonore avec les images.", "redirectionclasse":
+          "redirectionglitch", "redirectionbtn": "glitch.html" }
+        </include>
+      </section>
     </main>
     <footer>
       <include src="include/footer.html"></include>

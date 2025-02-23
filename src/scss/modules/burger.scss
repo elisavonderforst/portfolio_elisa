@@ -86,15 +86,66 @@ li > a {
   padding-bottom: 30px;
 }
 
+@media screen and (max-width: 850px) {
+  .burger {
+    position: fixed;
+    top: 0px;
+    right: 20px;
+    top: 20px;
+  }
+
+  .burger svg {
+    width: 100%;
+  }
+
+  .menu {
+    padding: 20px;
+  }
+
+  li {
+    font-size: 60px;
+  }
+
+  .menu-social {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0px;
+  }
+
+  .menu-social li a {
+    width: 100%;
+    padding: 70px;
+  }
+
+  .menu-ancre-border {
+    position: relative;
+    margin-bottom: 30px;
+  }
+
+  .menu-border-hover {
+    width: 70%;
+  }
+
+  .menu-icon-social {
+    width: 60%;
+    padding-bottom: 0;
+    margin: 10px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .burger {
     position: fixed;
     top: 0px;
-    right: -20px;
+    right: -10px;
+    top: 10px;
   }
 
   .burger svg {
-    width: 60%;
+    width: 70%;
   }
 
   .menu {
