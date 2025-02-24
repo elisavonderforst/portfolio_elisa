@@ -1,0 +1,335 @@
+.l-header-name {
+  padding: 20px 0 20px;
+}
+
+.l-header-name-a {
+  margin: 20px 0;
+}
+
+.l-menu {
+  padding: 50px;
+}
+
+.l-menu-ancre-border {
+  margin-bottom: 20px;
+}
+
+.l-menu-icon-social {
+  padding-bottom: 30px;
+}
+
+.l-intro-title {
+  margin-top: 300px;
+}
+
+.l-intro-text {
+  margin-top: 20px;
+  margin-right: 26px;
+  margin-bottom: 180px;
+}
+
+.l-card {
+  margin: 20px 13px;
+}
+
+.l-card-information {
+  padding: 7px 18px;
+  margin-left: 5%;
+}
+
+.l-card-btn a {
+  padding: 17px;
+  margin: 5%;
+  margin-bottom: 20px;
+}
+
+.l-btn {
+  margin-top: 200px;
+}
+
+.l-btn-information a {
+  padding: 23px;
+  padding-left: 36px;
+}
+
+.l-btn-icon {
+  padding-top: 15px;
+  padding-left: 35px;
+}
+
+.l-projets {
+  padding-bottom: 100px;
+}
+
+.l-projet-title {
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.l-projet-redirection {
+  padding-bottom: 80px;
+}
+
+.l-projet-title-page {
+  padding-top: 170px;
+}
+
+.l-projet-info,
+.l-projet-focus {
+  padding-bottom: 167px;
+}
+
+.l-projet-img-1 {
+  margin: 0;
+}
+
+.l-projet-video-img {
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+.l-projet-img-wk-bg {
+  margin: 0;
+  margin-top: 20px;
+}
+
+.l-projet-img-2 {
+  margin-top: 0;
+}
+
+.l-redirection-title {
+  padding-top: 70px;
+  margin-bottom: 0;
+}
+
+.l-redirection-text {
+  padding-top: 37px;
+  padding-bottom: 20%;
+}
+
+.l-redirection-btn {
+  padding: 23px;
+  margin-top: 0;
+}
+
+.l-redirection-btn a {
+  padding: 40%;
+}
+
+.l-redirection-img {
+  margin-top: 80px;
+}
+
+.l-about {
+  padding-top: 130px;
+}
+
+.l-about-title-page {
+  padding-top: 170px;
+}
+
+.l-about-text {
+  padding-top: 45px;
+}
+
+.l-about-img-me {
+  margin-top: 120px;
+}
+
+.l-about-projet-title {
+  padding-bottom: 20px;
+}
+
+.l-about-projet-perso {
+  margin-bottom: 40px;
+}
+
+.l-footer {
+  padding-bottom: 25px;
+}
+
+.l-footer-title {
+  padding-bottom: 30px;
+}
+
+.l-footer-nav {
+  margin-left: 15%;
+}
+
+.l-footer-nav a {
+  margin-bottom: 23px;
+}
+
+.l-footer-nav a img {
+  padding-right: 20px;
+}
+
+.l-footer-credit {
+  padding-top: 60px;
+}
+
+@media screen and (max-width: 1400px) {
+  .l-btn {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .l-btn-information a {
+    padding: 20px;
+  }
+
+  .l-btn-icon {
+    margin-top: 10px;
+  }
+
+  .projet-title-page {
+    padding-top: 200px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .l-redirection-img {
+    margin-top: 60px;
+  }
+
+  .l-redirection-text {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .l-redirection-btn {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .l-header-name-a {
+    margin: 20px 0;
+  }
+
+  .l-about {
+    padding-top: 130px;
+  }
+
+  .l-about-text {
+    padding-top: 45px;
+  }
+
+  .l-about-img-me {
+    margin-top: 30px;
+  }
+
+  .l-about-projet-title {
+    padding-top: 170px;
+  }
+
+  .l-about-projet-perso {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .l-menu {
+    padding: 20px;
+  }
+
+  .l-menu-social li a {
+    padding: 70px;
+  }
+
+  .l-menu-social {
+    padding-bottom: 0;
+  }
+
+  .l-menu-ancre-border {
+    margin-bottom: 30px;
+  }
+
+  .l-menu-icon-social {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .l-intro-text-all {
+    margin-bottom: 100px;
+  }
+
+  .l-projet-title-page {
+    padding-top: 200px;
+  }
+
+  .l-projet-video-img {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .l-projet-info {
+    padding-bottom: 120px;
+  }
+
+  .l-projet-info-img {
+    margin-top: 60px;
+  }
+
+  .l-projet-liens {
+    margin-top: 30px;
+  }
+
+  .l-projet-focus {
+    padding-bottom: 100px;
+  }
+
+  .l-redirection-btn {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .l-card {
+    margin: 20px 0;
+  }
+
+  .l-footer a {
+    padding-top: 5px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .l-header-name-a {
+    margin: 20px 0;
+  }
+
+  .l-menu {
+    padding: 10px;
+  }
+
+  .l-intro-title {
+    margin-top: 200px;
+  }
+
+  .l-intro-text {
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+
+  .l-menu-social li a {
+    padding: 40px;
+  }
+
+  .l-projet-title-page {
+    padding-top: 130px;
+  }
+
+  .l-about-img-me {
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .l-redirection-btn {
+    padding: 15px;
+  }
+}

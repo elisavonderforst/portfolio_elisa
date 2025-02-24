@@ -1,16 +1,14 @@
 .footer-nav {
   display: flex;
   flex-direction: column;
-  margin-left: 15%;
 }
 
 .footer-nav a {
+  color: var(--white);
   display: flex;
   text-decoration: none;
-  color: var(--white);
   font-size: 24px;
   text-transform: uppercase;
-  margin-bottom: 23px;
   transition: all 0.4s ease-in;
 }
 
@@ -19,14 +17,9 @@
   color: var(--orange-light);
 }
 
-.footer-nav a img {
-  padding-right: 20px;
-}
-
 .footer {
   background: var(--brown);
   position: relative;
-  padding-bottom: 25px;
 }
 
 .footer-orange {
@@ -66,15 +59,10 @@
   text-transform: uppercase;
   display: flex;
   justify-content: center;
-  padding-top: 60px;
 }
 
 .footer-mail {
   width: 8%;
-}
-
-.footer-title {
-  padding-bottom: 30px;
 }
 
 .footer-star-icon {
@@ -88,15 +76,8 @@
 }
 
 @media screen and (max-width: 600px) {
-  .footer-nav {
-    margin-left: 15%;
-  }
-
   .footer-nav a {
     font-size: 14px;
-    margin-bottom: 23px;
-    padding-top: 5px;
-    transition: all 0.4s ease-in;
   }
 
   .footer-nav a:hover {

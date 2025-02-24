@@ -87,9 +87,30 @@ h6 {
   text-transform: uppercase;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  color: var(--white);
+  font-family: "LazareGroteskBold";
+  font-size: 96px;
+  text-transform: uppercase;
+}
+
+li > a {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 1200px) {
   h3 {
     font-size: 65px;
+  }
+
+  h4 {
+    margin-top: 100px;
   }
 }
 
@@ -114,6 +135,12 @@ h6 {
   }
 }
 
+@media screen and (max-width: 850px) {
+  li {
+    font-size: 60px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   h3 {
     font-size: 30px;
@@ -128,5 +155,9 @@ h6 {
   h5 {
     font-size: 30px;
     margin-bottom: 20px;
+  }
+
+  li {
+    font-size: 30px;
   }
 }

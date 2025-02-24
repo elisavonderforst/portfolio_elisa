@@ -3,7 +3,6 @@
   font-family: "LazareGroteskBold";
   font-size: 48px;
   text-transform: uppercase;
-  padding: 20px 0 20px;
   line-height: 102.542%;
   text-decoration: none;
 }
@@ -23,10 +22,6 @@
 
 .header-name-a:hover .header-hover-name {
   opacity: 1;
-}
-
-.header-name-a {
-  margin: 20px 0;
 }
 
 .header-hidden {
@@ -54,10 +49,6 @@
   .header-name-a:hover .header-hover-name {
     opacity: 1;
   }
-
-  .header-name-a {
-    margin: 20px 0;
-  }
 }
 
 @media screen and (max-width: 800px) {
@@ -82,9 +73,5 @@
 
   .header-name-a:hover .header-hover-name {
     opacity: 1;
-  }
-
-  .header-name-a {
-    margin: 20px 0;
   }
 }

@@ -1,35 +1,23 @@
 .about-text {
   overflow: hidden;
-  color: var(--Color-black, #000);
+  color: var(--black);
   text-overflow: ellipsis;
   font-size: 25px;
-  padding-top: 45px;
-}
-
-.about {
-  padding-top: 130px;
 }
 
 .about-title-page {
-  color: var(--orange-vif-fonce, #da4316);
+  color: var(--orange-dark);
   font-family: "LazareGroteskBold";
   font-size: 70px;
   text-transform: uppercase;
-  padding-top: 170px;
 }
 
 .about-img-me {
-  margin-top: 120px;
   width: 100%;
 }
 
 .about-projet-perso {
   width: 95%;
-  margin-bottom: 40px;
-}
-
-.about-projet-title {
-  padding-bottom: 20px;
 }
 
 @media screen and (max-width: 1400px) {
@@ -45,41 +33,19 @@
 
   .about-text {
     font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding-top: 45px;
-  }
-
-  .about {
-    padding-top: 130px;
   }
 
   .about-title-page {
     font-size: 50px;
-    padding-top: 170px;
-  }
-
-  .about-img-me {
-    margin-top: 30px;
   }
 
   .about-projet-perso {
     width: 100%;
-    margin-bottom: 40px;
-  }
-
-  .about-projet-title {
-    padding-bottom: 20px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .about-title-page {
     font-size: 30px;
-  }
-
-  .about-img-me {
-    margin-top: 70px;
   }
 }

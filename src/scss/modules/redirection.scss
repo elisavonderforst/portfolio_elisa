@@ -1,26 +1,19 @@
 .redirection-title {
   color: var(--white);
-  padding-top: 70px;
-  margin-bottom: 0;
 }
 
 .redirection-img {
-  margin-top: 80px;
   width: 100%;
 }
 
 .redirection-text {
   color: var(--white);
   font-size: 25px;
-  padding-top: 37px;
-  padding-bottom: 20%;
 }
 
 .redirection-btn {
-  margin-top: 0;
   border-radius: 10px;
   background: var(--brown);
-  padding: 23px;
   transition: transform 0.4s ease-in;
 }
 
@@ -34,7 +27,6 @@
   font-family: "LazareGroteskBold";
   font-size: 32px;
   text-transform: uppercase;
-  padding: 40%;
 }
 
 .redirection-info {
@@ -45,23 +37,8 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .redirection-title {
-    padding-top: 70px;
-    margin-bottom: 0;
-  }
-
-  .redirection-img {
-    margin-top: 60px;
-  }
-
   .redirection-text {
     font-size: 18px;
-    padding-top: 30px;
-    padding-bottom: 50px;
-  }
-
-  .redirection-btn {
-    padding: 10px;
   }
 
   .redirection-btn a {
@@ -69,23 +46,19 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .redirection-text {
     font-size: 20px;
-  }
-
-  .redirection-btn {
-    margin-top: 0;
-  }
-
-  .redirection-btn {
-    padding: 20px;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .redirection-btn {
-    padding: 15px;
+  h6.redirection-title {
+    font-size: 25px;
+  }
+
+  .redirection-text {
+    font-size: 18px;
   }
 
   .redirection-btn a {

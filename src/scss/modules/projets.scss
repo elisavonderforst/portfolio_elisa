@@ -1,17 +1,13 @@
 .projets {
   background: var(--orange-dark);
-  padding-bottom: 100px;
 }
 
 .projet-title {
   color: var(--white);
-  padding-top: 100px;
-  padding-bottom: 20px;
 }
 
 .projet-redirection {
   background: var(--orange-dark);
-  padding-bottom: 80px;
 }
 
 .projet-title-page {
@@ -19,22 +15,10 @@
   font-family: "LazareGroteskBold";
   font-size: 70px;
   text-transform: uppercase;
-  padding-top: 170px;
-}
-
-.projet-info,
-.projet-focus {
-  padding-bottom: 167px;
 }
 
 .projet-video-img {
   width: 100%;
-  margin-bottom: 20px;
-  margin-left: 40px;
-}
-
-.projet-img-2 {
-  margin-top: 0;
 }
 
 .projet-info-text {
@@ -60,41 +44,25 @@
   width: 100%;
 }
 
-.projet-video {
-  margin: 20px 0 0;
-  width: 100%;
-}
-
 .projet-img-1 {
-  margin: 0 0 0;
   width: 100%;
 }
 
 .projet-img-wk-bg {
   width: 100%;
-  margin: 0;
-  margin-top: 20px;
+}
+
+.projet-video-ql {
+  left: 40;
 }
 
 @media screen and (max-width: 800px) {
   .projet-title-page {
     font-size: 70px;
-    padding-top: 200px;
-  }
-
-  .projet-info {
-    padding-bottom: 120px;
-  }
-
-  .projet-focus {
-    padding-bottom: 100px;
   }
 
   .projet-video-img {
     width: 100%;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 0;
   }
 
   .projet-text {
@@ -103,18 +71,16 @@
 
   .projet-liens {
     font-size: 20px;
-    margin-top: 30px;
   }
 
-  .projet-info-img {
-    margin-top: 60px;
+  .projet-video-ql {
+    left: 0;
   }
 }
 
 @media screen and (max-width: 500px) {
   .projet-title-page {
     font-size: 30px;
-    padding-top: 130px;
   }
 
   .projet-liens {

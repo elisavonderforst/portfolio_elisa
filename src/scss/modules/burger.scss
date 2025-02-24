@@ -11,16 +11,15 @@
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 50px;
-  background: var(--orange-light);
-  pointer-events: none;
-  transition: opacity 0.3s, transform 0.3s;
-  transform: translateX(100%);
   z-index: 2;
   display: flex;
   flex-direction: column;
   text-align: end;
   justify-content: center;
+  background: var(--orange-light);
+  pointer-events: none;
+  transition: opacity 0.3s, transform 0.3s;
+  transform: translateX(100%);
 }
 
 .menu.is-active {
@@ -28,23 +27,6 @@
   pointer-events: auto;
   transform: translateX(0);
   overflow: hidden;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-li {
-  color: var(--white);
-  font-family: "LazareGroteskBold";
-  font-size: 96px;
-  text-transform: uppercase;
-}
-
-li > a {
-  text-decoration: none;
 }
 
 .menu-social {
@@ -57,7 +39,6 @@ li > a {
 
 .menu-ancre-border {
   position: relative;
-  margin-bottom: 20px;
 }
 
 .menu-border-hover {
@@ -80,7 +61,6 @@ li > a {
 
 .menu-icon-social {
   width: 120%;
-  padding-bottom: 30px;
 }
 
 .menu-social li a img {
@@ -93,20 +73,11 @@ li > a {
 
 @media screen and (max-width: 850px) {
   .burger {
-    right: 20px;
     top: 20px;
   }
 
   .burger svg {
     width: 100%;
-  }
-
-  .menu {
-    padding: 20px;
-  }
-
-  li {
-    font-size: 60px;
   }
 
   .menu-social {
@@ -118,12 +89,10 @@ li > a {
 
   .menu-social li a {
     width: 100%;
-    padding: 70px;
   }
 
   .menu-ancre-border {
     position: relative;
-    margin-bottom: 30px;
   }
 
   .menu-border-hover {
@@ -132,8 +101,6 @@ li > a {
 
   .menu-icon-social {
     width: 60%;
-    padding-bottom: 0;
-    margin: 10px;
   }
 }
 
@@ -159,22 +126,8 @@ li > a {
     width: 70%;
   }
 
-  .menu {
-    padding: 10px;
-  }
-
-  li {
-    font-size: 30px;
-  }
-
   .menu-social li a {
     width: 100%;
-    padding: 40px;
-  }
-
-  .menu-ancre-border {
-    position: relative;
-    margin-bottom: 30px;
   }
 
   .menu-border-hover {
