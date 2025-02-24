@@ -19,23 +19,3 @@ document.addEventListener("DOMContentLoaded", function () {
     item.addEventListener("click", toggleMenu);
   });
 });
-
-// document.addEventListener("DOMContentLoaded", function () {
-//   const burgerMenuButton = document.querySelector(".header-hidden");
-//   let lastScrollTop = 0;
-
-//   window.addEventListener("scroll", function () {
-//     const currentScrollTop =
-//       window.pageYOffset || document.documentElement.scrollTop;
-
-//     console.log(currentScrollTop);
-
-//     if (currentScrollTop > lastScrollTop) {
-//       burgerMenuButton.classList.add("hidden-scroll");
-//     } else {
-//       burgerMenuButton.classList.remove("hidden-scroll");
-//     }
-
-//     lastScrollTop = currentScrollTop;
-//   });
-// });

@@ -12,7 +12,7 @@
   bottom: 0;
   left: 0;
   padding: 50px;
-  background: var(--Color-2, #e76013);
+  background: var(--orange-light);
   pointer-events: none;
   transition: opacity 0.3s, transform 0.3s;
   transform: translateX(100%);
@@ -37,7 +37,7 @@ ul {
 }
 
 li {
-  color: var(--Color-white, #fff);
+  color: var(--white);
   font-family: "LazareGroteskBold";
   font-size: 96px;
   text-transform: uppercase;
@@ -67,7 +67,7 @@ li > a {
   bottom: 0;
   width: 40%;
   height: 5px;
-  background: var(--bar-color, rgb(255, 255, 255));
+  background: var(--white);
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.4s ease-in-out;

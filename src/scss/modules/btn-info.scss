@@ -1,6 +1,6 @@
 .btn {
   border-radius: 10px;
-  background: #3f0f03;
+  background: var(--brown);
   margin-top: 200px;
   transition: transform 0.4s ease-in;
 }
@@ -15,7 +15,7 @@
 
 .btn-information a {
   text-decoration: none;
-  color: var(--Color-2, #e76013);
+  color: var(--orange-light);
   font-family: "LazareGroteskBold";
   font-size: 32px;
   text-transform: uppercase;
@@ -26,8 +26,8 @@
 .btn-icon {
   padding-top: 15px;
   padding-left: 35px;
-  fill: var(--Color-2, #e76013);
-  stroke: var(--Color-2, #e76013);
+  fill: var(--orange-light);
+  stroke: var(--orange-light);
 }
 
 @media screen and (max-width: 1400px) {

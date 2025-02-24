@@ -7,7 +7,7 @@
 }
 
 .card-information {
-  color: var(--Color-white, #fff);
+  color: var(--white);
   font-size: 20px;
   display: flex;
   width: 153px;
@@ -16,7 +16,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  background: var(--orange-vif-fonce, #da4316);
+  background: var(--orange-dark);
   margin-left: 5%;
   position: absolute;
   bottom: 140px;
@@ -24,8 +24,8 @@
 
 .card-btn a {
   border-radius: 10px;
-  background: #3f0f03;
-  color: var(--Color-2, #e76013);
+  background: var(--brown);
+  color: var(--orange-light);
   font-family: "LazareGroteskBold";
   font-size: 32px;
   text-transform: uppercase;

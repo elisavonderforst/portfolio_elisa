@@ -7,7 +7,7 @@
 .footer-nav a {
   display: flex;
   text-decoration: none;
-  color: var(--Color-white, #fff);
+  color: var(--white);
   font-size: 24px;
   text-transform: uppercase;
   margin-bottom: 23px;
@@ -16,7 +16,7 @@
 
 .footer-nav a:hover {
   transform: scale(1.2);
-  color: #e76013;
+  color: var(--orange-light);
 }
 
 .footer-nav a img {
@@ -24,7 +24,7 @@
 }
 
 .footer {
-  background: #3f0f03;
+  background: var(--brown);
   position: relative;
   padding-bottom: 25px;
 }
@@ -32,7 +32,7 @@
 .footer-orange {
   width: 30%;
   height: 100%;
-  background: var(--Color-2, #e76013);
+  background: var(--orange-light);
   position: absolute;
   top: 0;
   right: 0;
@@ -61,7 +61,7 @@
 }
 
 .footer-credit {
-  color: var(--Color-white, #fff);
+  color: var(--white);
   font-size: 15px;
   text-transform: uppercase;
   display: flex;
@@ -101,7 +101,7 @@
 
   .footer-nav a:hover {
     transform: scale(1.1);
-    color: #e76013;
+    color: var(--orange-light);
   }
 
   .footer-nav a img {
@@ -111,7 +111,7 @@
   .footer-orange {
     width: 30%;
     height: 100%;
-    background: var(--Color-2, #e7611300);
+    background: var(--brown-0);
   }
 
   .footer-icon svg {

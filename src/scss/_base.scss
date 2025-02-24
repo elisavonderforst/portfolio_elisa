@@ -12,9 +12,18 @@
     url("../fonts/LazareGroteskRegular.ttf") format("truetype");
 }
 
+:root {
+  --white: #fff;
+  --orange-dark: #da4316;
+  --orange-light: #e76013;
+  --brown: #3f0f03;
+  --brown-0: #e7611300;
+  --black: rgba(0, 0, 0, 1);
+}
+
 html {
   overflow-x: hidden;
-  background: #fff;
+  background: var(--white);
   font-family: "LazareGroteskRegular";
 }
 
@@ -39,7 +48,7 @@ video {
 }
 
 header {
-  background: var(--Color-2, #e76013);
+  background: var(--orange-light);
   font-family: "LazareGroteskBold";
   width: 100%;
   position: fixed;
@@ -47,15 +56,15 @@ header {
 }
 
 h3 {
-  color: var(--Color-2, #e76013);
+  color: var(--orange-light);
   font-family: "LazareGroteskBold";
   font-size: 90px;
   text-transform: uppercase;
-  line-height: 85.71%; /* 82.281px */
+  line-height: 85.71%;
 }
 
 h4 {
-  color: var(--Color-white, #fff);
+  color: var(--white);
   font-family: "LazareGroteskBold";
   font-size: 70px;
   text-transform: uppercase;
@@ -64,7 +73,7 @@ h4 {
 }
 
 h5 {
-  color: var(--orange-vif-fonce, #da4316);
+  color: var(--orange-dark);
   font-family: "LazareGroteskBold";
   font-size: 64px;
   text-transform: uppercase;
@@ -72,7 +81,7 @@ h5 {
 }
 
 h6 {
-  color: var(--Color-white, #fff);
+  color: var(--white);
   font-family: "LazareGroteskBold";
   font-size: 48px;
   text-transform: uppercase;

@@ -1,5 +1,5 @@
 .redirection-title {
-  color: var(--Color-white, #fff);
+  color: var(--white);
   padding-top: 70px;
   margin-bottom: 0;
 }
@@ -10,7 +10,7 @@
 }
 
 .redirection-text {
-  color: var(--Color-white, #fff);
+  color: var(--white);
   font-size: 25px;
   padding-top: 37px;
   padding-bottom: 20%;
@@ -19,7 +19,7 @@
 .redirection-btn {
   margin-top: 0;
   border-radius: 10px;
-  background: #3f0f03;
+  background: var(--brown);
   padding: 23px;
   transition: transform 0.4s ease-in;
 }
@@ -30,7 +30,7 @@
 
 .redirection-btn a {
   text-decoration: none;
-  color: var(--Color-2, #e76013);
+  color: var(--orange-light);
   font-family: "LazareGroteskBold";
   font-size: 32px;
   text-transform: uppercase;
