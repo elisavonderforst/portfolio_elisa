@@ -38,11 +38,8 @@ ul {
 
 li {
   color: var(--Color-white, #fff);
-  font-family: "Lazare Grotesk Trial";
+  font-family: "LazareGroteskBold";
   font-size: 96px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
   text-transform: uppercase;
 }
 
@@ -96,8 +93,6 @@ li > a {
 
 @media screen and (max-width: 850px) {
   .burger {
-    position: fixed;
-    top: 0px;
     right: 20px;
     top: 20px;
   }
@@ -144,7 +139,6 @@ li > a {
 
 @media screen and (max-width: 600px) {
   .burger {
-    position: fixed;
     top: 0px;
     right: 10px;
     top: 5px;
@@ -157,8 +151,6 @@ li > a {
 
 @media screen and (max-width: 500px) {
   .burger {
-    position: fixed;
-    top: 0px;
     right: -10px;
     top: 10px;
   }

@@ -8,11 +8,7 @@
   display: flex;
   text-decoration: none;
   color: var(--Color-white, #fff);
-  font-family: "Lazare Grotesk Trial";
   font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   text-transform: uppercase;
   margin-bottom: 23px;
   transition: all 0.4s ease-in;
@@ -66,11 +62,7 @@
 
 .footer-credit {
   color: var(--Color-white, #fff);
-  font-family: "Lazare Grotesk Trial";
   font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
@@ -97,12 +89,10 @@
 
 @media screen and (max-width: 600px) {
   .footer-nav {
-    display: flex;
     margin-left: 15%;
   }
 
   .footer-nav a {
-    display: flex;
     font-size: 14px;
     margin-bottom: 23px;
     padding-top: 5px;

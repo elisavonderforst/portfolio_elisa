@@ -1,6 +1,5 @@
 .card {
   border-radius: 20px;
-
   margin: 20px 13px;
   position: relative;
   overflow: hidden;
@@ -9,7 +8,6 @@
 
 .card-information {
   color: var(--Color-white, #fff);
-  font-family: "Lazare Grotesk Trial";
   font-size: 20px;
   display: flex;
   width: 153px;
@@ -28,13 +26,10 @@
   border-radius: 10px;
   background: #3f0f03;
   color: var(--Color-2, #e76013);
-  font-family: "Lazare Grotesk Trial";
+  font-family: "LazareGroteskBold";
   font-size: 32px;
-  font-weight: 700;
-  line-height: normal;
   text-transform: uppercase;
   padding: 17px;
-  margin: 20px;
   position: absolute;
   bottom: 20px;
   display: flex;
@@ -76,7 +71,6 @@
   .card-btn a {
     border-radius: 10px;
     font-size: 20px;
-
     position: absolute;
     bottom: 30px;
   }

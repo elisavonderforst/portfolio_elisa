@@ -16,11 +16,8 @@
 
 .projet-title-page {
   color: var(--orange-vif-fonce, #da4316);
-  font-family: "Lazare Grotesk Trial";
+  font-family: "LazareGroteskBold";
   font-size: 70px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
   text-transform: uppercase;
   padding-top: 170px;
 }
@@ -33,7 +30,6 @@
 .projet-video-img {
   width: 100%;
   margin-bottom: 20px;
-  margin-top: 20px;
   margin-left: 40px;
 }
 
@@ -50,20 +46,12 @@
 
 .projet-text {
   color: #000;
-  font-family: "Lazare Grotesk Trial";
   font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
 
 .projet-liens {
   color: var(--orange-vif-fonce, #da4316);
-  font-family: Futura;
   font-size: 40px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
   text-decoration: underline solid;
   text-transform: uppercase;
 }
@@ -78,7 +66,7 @@
 }
 
 .projet-img-1 {
-  margin: 20px 0 0;
+  margin: 0 0 0;
   width: 100%;
 }
 
@@ -109,17 +97,6 @@
     margin-left: 0;
   }
 
-  .projet-img-2 {
-    margin-top: 0;
-  }
-
-  .projet-info-text {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
   .projet-text {
     font-size: 20px;
   }
@@ -130,24 +107,7 @@
   }
 
   .projet-info-img {
-    width: 100%;
     margin-top: 60px;
-  }
-
-  .projet-video {
-    margin: 20px 0 0;
-    width: 100%;
-  }
-
-  .projet-img-1 {
-    margin: 20px 0 0;
-    width: 100%;
-  }
-
-  .projet-img-wk-bg {
-    width: 100%;
-    margin: 0;
-    margin-top: 20px;
   }
 }
 
@@ -157,43 +117,7 @@
     padding-top: 130px;
   }
 
-  .projet-img-2 {
-    margin-top: 0;
-  }
-
-  .projet-info-text {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .projet-text {
-    color: #000;
-    font-family: "Lazare Grotesk Trial";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
-
   .projet-liens {
     font-size: 20px;
-  }
-
-  .projet-video {
-    margin: 20px 0 0;
-    width: 100%;
-  }
-
-  .projet-img-1 {
-    margin: 20px 0 0;
-    width: 100%;
-  }
-
-  .projet-img-wk-bg {
-    width: 100%;
-    margin: 0;
-    margin-top: 20px;
   }
 }

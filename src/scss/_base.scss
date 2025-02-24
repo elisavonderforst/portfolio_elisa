@@ -1,6 +1,21 @@
+@font-face {
+  font-family: "LazareGroteskBold";
+  src: url("../fonts/LazareGroteskBold.woff2") format("woff2"),
+    url("../fonts/LazareGroteskBold.woff") format("woff"),
+    url("../fonts/LazareGroteskBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "LazareGroteskRegular";
+  src: url("../fonts/LazareGroteskRegular.woff2") format("woff2"),
+    url("../fonts/LazareGroteskRegular.woff") format("woff"),
+    url("../fonts/LazareGroteskRegular.ttf") format("truetype");
+}
+
 html {
   overflow-x: hidden;
   background: #fff;
+  font-family: "LazareGroteskRegular";
 }
 
 .inner::-webkit-scrollbar {
@@ -25,6 +40,7 @@ video {
 
 header {
   background: var(--Color-2, #e76013);
+  font-family: "LazareGroteskBold";
   width: 100%;
   position: fixed;
   z-index: 3;
@@ -32,21 +48,16 @@ header {
 
 h3 {
   color: var(--Color-2, #e76013);
-  font-family: "Lazare Grotesk Trial";
+  font-family: "LazareGroteskBold";
   font-size: 90px;
-  font-style: normal;
-  font-weight: 700;
   text-transform: uppercase;
   line-height: 85.71%; /* 82.281px */
 }
 
 h4 {
   color: var(--Color-white, #fff);
-  font-family: "Lazare Grotesk Trial";
+  font-family: "LazareGroteskBold";
   font-size: 70px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
   text-transform: uppercase;
   padding-top: 70px;
   padding-bottom: 58px;
@@ -54,21 +65,16 @@ h4 {
 
 h5 {
   color: var(--orange-vif-fonce, #da4316);
-  font-family: "Lazare Grotesk Trial";
+  font-family: "LazareGroteskBold";
   font-size: 64px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
   text-transform: uppercase;
   margin-bottom: 80px;
 }
 
 h6 {
   color: var(--Color-white, #fff);
-  font-family: "Lazare Grotesk Trial";
+  font-family: "LazareGroteskBold";
   font-size: 48px;
-  font-style: normal;
-  font-weight: 700;
   text-transform: uppercase;
 }
 
