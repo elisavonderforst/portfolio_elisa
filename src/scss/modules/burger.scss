@@ -86,6 +86,14 @@ li > a {
   padding-bottom: 30px;
 }
 
+.menu-social li a img {
+  transition: transform 0.4s ease-in;
+}
+
+.menu-social li a:hover img {
+  transform: scale(1.2);
+}
+
 @media screen and (max-width: 850px) {
   .burger {
     position: fixed;
@@ -107,8 +115,6 @@ li > a {
   }
 
   .menu-social {
-    position: absolute;
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -136,6 +142,19 @@ li > a {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .burger {
+    position: fixed;
+    top: 0px;
+    right: 10px;
+    top: 5px;
+  }
+
+  .burger svg {
+    width: 60%;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .burger {
     position: fixed;
@@ -156,15 +175,6 @@ li > a {
     font-size: 30px;
   }
 
-  .menu-social {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    bottom: 0px;
-  }
-
   .menu-social li a {
     width: 100%;
     padding: 40px;
@@ -177,11 +187,5 @@ li > a {
 
   .menu-border-hover {
     width: 60%;
-  }
-
-  .menu-icon-social {
-    width: 60%;
-    padding-bottom: 0;
-    margin: 10px;
   }
 }

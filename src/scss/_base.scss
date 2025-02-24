@@ -72,6 +72,12 @@ h6 {
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 1200px) {
+  h3 {
+    font-size: 65px;
+  }
+}
+
 @media screen and (max-width: 900px) {
   h3 {
     font-size: 60px;

@@ -1,5 +1,6 @@
 .card {
-  border-radius: 10px;
+  border-radius: 20px;
+
   margin: 20px 13px;
   position: relative;
   overflow: hidden;
@@ -57,20 +58,12 @@
   opacity: 100%;
 }
 
-.card-ql {
-  height: 91.5%;
-  background: #fff;
-}
-
-.card-ql .card-cl-img {
-  width: 100%;
-  padding: 20px;
+.card img {
+  border-radius: 20px;
 }
 
 @media screen and (max-width: 600px) {
   .card {
-    border-radius: 10px;
-    border-bottom-left-radius: 20px;
     margin: 20px 0;
     width: 100%;
     height: 100%;
@@ -88,12 +81,8 @@
     bottom: 30px;
   }
 
-  .card-ql .card-cl-img {
-    width: 100%;
-    padding: 20px;
-  }
-
   .card img {
     width: 100%;
+    border-radius: 20px;
   }
 }

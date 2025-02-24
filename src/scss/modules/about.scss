@@ -39,10 +39,17 @@
   padding-bottom: 20px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1400px) {
+  .about-img-me-index {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
   .about-img-me-index {
     display: none;
   }
+
   .about-text {
     font-size: 20px;
     font-style: normal;
@@ -77,19 +84,9 @@
 @media screen and (max-width: 500px) {
   .about-title-page {
     font-size: 30px;
-    padding-top: 170px;
   }
 
   .about-img-me {
     margin-top: 70px;
-  }
-
-  .about-projet-perso {
-    width: 100%;
-    margin-bottom: 40px;
-  }
-
-  .about-projet-title {
-    padding-bottom: 20px;
   }
 }
