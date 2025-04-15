@@ -1,0 +1,7 @@
+{
+  "files.defaultLanguage": "\"cSpell.language\": \"en,fr\",",
+  "workbench.commandPalette.experimental.enableNaturalLanguageSearch": true,
+  "workbench.editor.languageDetectionHints": {
+    "untitledEditors": false
+  }
+}
