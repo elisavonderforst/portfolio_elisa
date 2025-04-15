@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Elisa von der Forst :)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/main.scss" />
+    <link
+      rel="icon"
+      href="./img/star-icon.png?as=webp
+    "
+      type="image/png"
+    />
+  </head>
+  <body>
+    <header>
+      <include src="include/header.html"></include>
+    </header>
+    <main>
+      <section class="intro">
+        <div class="container">
+          <div class="row">
+            <div class="col-8 col-lg-7">
+              <h3 class="l-intro-title">
+                Interactive
+                <br />
+                Media Design
+              </h3>
+            </div>
+            <div class="col-7 col-lg-8">
+              <div class="intro-text-all l-intro-text-all">
+                <p class="intro-text l-intro-text">Web design</p>
+                <p class="intro-text l-intro-text">UI/UX</p>
+                <p class="intro-text l-intro-text">Motion</p>
+                <p class="intro-text l-intro-text">Montage vidéo</p>
+                <p class="intro-text l-intro-text">Illustration</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="projets l-projets" id="projets">
+        <div class="container">
+          <div class="row">
+            <div class="col-9 col-lg-7">
+              <h3 class="projet-title l-projet-title">Mes projets</h3>
+            </div>
+            <div class="col-12 col-lg-8">
+              <include src="include/card.html">
+                { "cardclass": "card-licorne", "cardclassimg":
+                "card-licorne-img", "cardclassimgsrc":
+                "img/licorne.png?as=webp", "cardinfo": "Web design", "cardsrc":
+                "licorne.html" }
+              </include>
+            </div>
+            <div class="col-6 col-lg-4">
+              <include src="include/card.html">
+                { "cardclass": "card-apparence", "cardclassimg":
+                "card-apparence-img", "cardclassimgsrc":
+                "img/apparence.png?as=webp", "cardinfo": "Vidéo", "cardsrc":
+                "apparence.html" }
+              </include>
+            </div>
+            <div class="col-6 col-lg-4">
+              <include src="include/card.html">
+                { "cardclass": "card-io", "cardclassimg": "card-io-img",
+                "cardclassimgsrc": "img/io.png?as=webp", "cardinfo":
+                "Illustration", "cardsrc": "io.html" }
+              </include>
+            </div>
+            <div class="col-6 col-lg-4">
+              <include src="include/card.html">
+                { "cardclass": "card-ql", "cardclassimg": "card-cl-img",
+                "cardclassimgsrc": "img/ql-logo.png?as=webp", "cardinfo": "Web
+                design", "cardsrc": "quartierlointain.html" }
+              </include>
+            </div>
+            <div class="col-6 col-lg-4">
+              <include src="include/card.html">
+                { "cardclass": "card-girlinred", "cardclassimg":
+                "card-girlinred-img", "cardclassimgsrc":
+                "img/girlinred.png?as=webp", "cardinfo": "Vidéo", "cardsrc":
+                "girlinred.html" }
+              </include>
+            </div>
+            <div class="col-12 col-lg-12">
+              <div class="row">
+                <div class="col-12 col-lg-4">
+                  <div class="row">
+                    <div class="col-6 col-lg-12">
+                      <include src="include/card.html">
+                        { "cardclass": "card-happybirthday", "cardinfo":
+                        "Motion", "cardclassimg": "card-happybirthday-img",
+                        "cardclassimgsrc": "img/bday.png?as=webp", "cardsrc":
+                        "happybirthday.html" }
+                      </include>
+                    </div>
+                    <div class="col-6 col-lg-12">
+                      <include src="include/card.html">
+                        { "cardclass": "card-glitch", "cardclassimg":
+                        "card-glitch-img", "cardclassimgsrc":
+                        "img/glitch.png?as=webp", "cardinfo": "Fronted Dev",
+                        "cardinfo": "Motion", "cardsrc": "glitch.html" }
+                      </include>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-8">
+                  <include src="include/card.html">
+                    { "cardclass": "card-inconnu", "cardclassimg":
+                    "card-inconnu-img", "cardclassimgsrc": "img/wk.png?as=webp",
+                    "cardinfo": "Fronted Dev", "cardinfo": "Motion", "cardsrc":
+                    "inconnu.html" }
+                  </include>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="l-about" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-2 col-lg-5">
+              <img
+                class="about-img-me-index"
+                src="img/about/dessin-moi.png?as=webp"
+                alt="Dessin de Elisa"
+              />
+            </div>
+            <div class="col-12 col-lg-7">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 col-lg-12">
+                    <h3>Qui suis-je ?</h3>
+                  </div>
+                  <div class="col-12 col-lg-9 offset-lg-3">
+                    <p class="about-text l-about-text">
+                      Bonjour, je m'appelle Elisa et je suis en apprentissage à
+                      eikon. Je suis vraiment impatiente d'apprendre davantage
+                      en interactive Media Design.
+                    </p>
+                  </div>
+                  <div class="col-10 col-lg-10 offset-lg-3">
+                    <div class="btn-parent-frisson">
+                      <include src="include/btn-info.html">
+                        { "btnclass": "btn-about", "btnpage": "about.html",
+                        "btninfo": "Plus d'informations"}
+                      </include>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <include src="include/footer.html"> </include>
+    </footer>
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>

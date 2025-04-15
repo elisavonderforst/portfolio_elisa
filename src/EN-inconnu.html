@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Elisa von der Forst :)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/main.scss" />
+    <link rel="icon" href="./img/star-icon.png?as=webp" type="image/png" />
+  </head>
+  <body>
+    <header>
+      <include src="include/header.html"></include>
+    </header>
+    <main>
+      <section class="projet-info l-projet-info">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h4 class="projet-title-page l-projet-title-page">L'inconnu</h4>
+            </div>
+            <div class="col-12 col-lg-5">
+              <p class="projet-text">
+                Réalisation d'une séquence avec After Effects pendant une
+                semaine. L'objectif est de s'améliorer sur le logiciel en
+                question. Il nous était demandé de créer une séquence pouvant
+                amener à réfléchir sur les enjeux et comportements que l’on voit
+                apparaître autour des supports numériques. L’idée est de
+                sensibiliser aux dérives potentielles qui peuvent en découler.
+              </p>
+            </div>
+            <div class="col-12 col-lg-6 offset-lg-1">
+              <img
+                class="projet-info-img l-projet-info-img"
+                src="img/wk/wk-logo.png?as=webp"
+                alt="Image d'introduction"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="projet-focus l-projet-focus">
+        <div class="container">
+          <div class="row">
+            <div class="col-8">
+              <h5>Focus du projet:</h5>
+            </div>
+            <div class="col-12">
+              <div class="row">
+                <div class="col-12 col-lg-6">
+                  <div style="padding: 100% 0 0 0; position: relative">
+                    <iframe
+                      src="https://player.vimeo.com/video/1059684475?h=e20ed4f901&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                      frameborder="0"
+                      allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                      style="
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                      "
+                      title="elisa_workshop_AE"
+                    ></iframe>
+                  </div>
+                  <script src="https://player.vimeo.com/api/player.js"></script>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <img
+                    class="projet-video-img"
+                    src="img/wk/wk-chara-design.png?as=webp"
+                    alt="Design du personnage principale"
+                  />
+                </div>
+                <div class="col-12">
+                  <img
+                    class="projet-video-img l-projet-video-img projet-img-wk-bg l-projet-img-wk-bg"
+                    src="img/wk/wk-bg.png?as=webp"
+                    alt="Image du lieu de l'animation"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="projet-redirection l-projet-redirection">
+        <include src="include/redirection.html">
+          { "redirectionimg": "img/io.png?as=webp", "redirectionalt": "Image de
+          la couverture du livre illustré", "redirectiontitle": "Méthamorphose
+          d'io", "redirectiontext": "Pour ce projet, nous avons choisi un mythe
+          parmi trois récits de Ovide et avons eu deux semaines pour en faire un
+          livre illustré.", "redirectionclasse": "redirectionio",
+          "redirectionbtn": "io.html" }
+        </include>
+      </section>
+    </main>
+    <footer>
+      <include src="include/footer.html"></include>
+    </footer>
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>

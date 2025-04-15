@@ -71,6 +71,17 @@
   transform: scale(1.2);
 }
 
+.menu-changement-langue {
+  position: absolute;
+  top: 20%;
+}
+
+.menu-langue {
+  font-size: 40px;
+  color: var(--white);
+  padding: 20px;
+}
+
 @media screen and (max-width: 850px) {
   .burger {
     top: 20px;
