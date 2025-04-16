@@ -16,6 +16,22 @@
   width: 100%;
 }
 
+.about-img-hover {
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+  right: 0%;
+  opacity: 0;
+}
+
+.about-img-me-index:hover .about-img-hover {
+  opacity: 1;
+}
+
+.about-img {
+  position: relative;
+}
+
 .about-projet-perso {
   width: 95%;
 }
