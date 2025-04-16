@@ -84,11 +84,11 @@
 
 @media screen and (max-width: 850px) {
   .burger {
-    top: 20px;
+    top: 5px;
   }
 
   .burger svg {
-    width: 100%;
+    width: 70%;
   }
 
   .menu-social {
@@ -115,6 +115,12 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .burger {
+    top: 15px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .burger {
     top: 0px;
@@ -124,6 +130,12 @@
 
   .burger svg {
     width: 60%;
+  }
+}
+
+@media screen and (max-width: 00px) {
+  .burger svg {
+    width: 50%;
   }
 }
 
